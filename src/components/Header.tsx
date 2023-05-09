@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Scroll, Timer } from 'phosphor-react'
+import { ClockCounterClockwise, Timer } from 'phosphor-react'
 import Tooltip from '@mui/material/Tooltip'
 
 import { HomeProps } from '@/pages/index.page'
@@ -48,7 +48,7 @@ export function Header({ onChangeComponent }: HeaderProps) {
         </Tooltip>
         <Tooltip title="Histórico" placement="top" arrow>
           <Link href="" onClick={handleSetPageHistory}>
-            <Scroll
+            <ClockCounterClockwise
               size={30}
               className="text-zinc-100 drop-shadow-lg border-b-2 border-transparent hover:border-rose-700"
             />
