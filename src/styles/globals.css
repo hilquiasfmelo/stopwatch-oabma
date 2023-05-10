@@ -23,24 +23,6 @@
   display: none !important;
 }
 
-@keyframes float {
-  0% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: translate(0, 0.25rem);
-  }
-  100% {
-    transform: translate(0, 0);
-  }
-}
-
-.animate-float {
-  animation: float 3s ease-in-out infinite;
-}
-
-
-
 /* Remover as setas do input tipo number */
 /* ::-webkit-outer-spin-button,
 ::-webkit-inner-spin-button {
